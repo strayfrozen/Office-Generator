@@ -15,3 +15,16 @@ WHEN I select the intern option
 THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated*/
+
+
+
+
+//New note employee will have to use inheritence to make it the parent of Manager, Engineer, and Intern classes
+
+//This means Manager, Engineer, and Intern will inherit in common traits from the employee class but they will aslso need their
+//own distinct properties and methods
+
+//First plan of attack is to create all my classes writing tests for them first 
+//starting with Manager, Engineer, and Intern once all tests pass and all are created
+//then I will create an employee class and pass its properties and methods into the other classes with inherintance 
+//once completed then we can begin the second phase 
